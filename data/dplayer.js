@@ -2672,7 +2672,7 @@
                         },
                         error: function(r) {
                           n.options.error(
-                            r || n.options.tran("Danmaku load failed")
+                            r || n.options.tran("ไม่ได้เปิดให้เเสดงความคิดเห็น")
                           ),
                             (i[o] = []),
                             ++a === e.length && t(i);
@@ -2704,7 +2704,7 @@
                   data: i,
                   success: t,
                   error: function(e) {
-                    n.options.error(e || n.options.tran("Danmaku send failed"));
+                    n.options.error(e || n.options.tran("การส่งความคิดเห็นล้มเหลว"));
                   }
                 }),
                   this.dan.splice(this.danIndex, 0, i),
@@ -3098,7 +3098,7 @@
             '>\n        <div class="dplayer-danmaku-item dplayer-danmaku-item--demo"></div>\n    </div>\n    <div class="dplayer-subtitle"></div>\n    <div class="dplayer-bezel">\n        <span class="dplayer-bezel-icon"></span>\n        '),
           r.danmaku &&
             ((a += '\n        <span class="dplayer-danloading">'),
-            (a += s(l("HELGO ANIME"))),
+            (a += s(l("HELGO"))),
             (a += "</span>\n        ")),
           (a += '\n        <span class="diplayer-loading-icon">'),
           (a += c.loading),
@@ -3149,7 +3149,7 @@
           (a += s(l("Bottom"))),
           (a +=
             '</span>\n                </label>\n            </div>\n        </div>\n        <input class="dplayer-comment-input" type="text" placeholder="'),
-          (a += s(l("Input danmaku, hit Enter"))),
+          (a += s(l("เเสดงความคิดเห็น"))),
           (a +=
             '" maxlength="30">\n        <button class="dplayer-icon dplayer-send-icon" data-balloon="'),
           (a += s(l("Send"))),
@@ -3221,7 +3221,7 @@
             (a += "</span>\n            </button>\n        </div>\n        ")),
           (a +=
             '\n        <div class="dplayer-setting">\n            <button class="dplayer-icon dplayer-setting-icon" data-balloon="'),
-          (a += s(l("Setting"))),
+          (a += s(l("ตั้งค่า"))),
           (a +=
             '" data-balloon-pos="up">\n                <span class="dplayer-icon-content">'),
           (a += c.setting),
@@ -3236,25 +3236,25 @@
           (a += s(l("Loop"))),
           (a +=
             '</span>\n                        <div class="dplayer-toggle">\n                            <input class="dplayer-toggle-setting-input" type="checkbox" name="dplayer-toggle">\n                            <label for="dplayer-toggle"></label>\n                        </div>\n                    </div>\n                    <div class="dplayer-setting-item dplayer-setting-showdan">\n                        <span class="dplayer-label">'),
-          (a += s(l("Show danmaku"))),
+          (a += s(l("เปิด Comment"))),
           (a +=
             '</span>\n                        <div class="dplayer-toggle">\n                            <input class="dplayer-showdan-setting-input" type="checkbox" name="dplayer-toggle-dan">\n                            <label for="dplayer-toggle-dan"></label>\n                        </div>\n                    </div>\n                    <div class="dplayer-setting-item dplayer-setting-danunlimit">\n                        <span class="dplayer-label">'),
-          (a += s(l("Unlimited danmaku"))),
+          (a += s(l("จำกัด Comment"))),
           (a +=
             '</span>\n                        <div class="dplayer-toggle">\n                            <input class="dplayer-danunlimit-setting-input" type="checkbox" name="dplayer-toggle-danunlimit">\n                            <label for="dplayer-toggle-danunlimit"></label>\n                        </div>\n                    </div>\n                    <div class="dplayer-setting-item dplayer-setting-danmaku">\n                        <span class="dplayer-label">'),
-          (a += s(l("Opacity for danmaku"))),
+          (a += s(l("ความทึบแสง"))),
           (a +=
             '</span>\n                        <div class="dplayer-danmaku-bar-wrap">\n                            <div class="dplayer-danmaku-bar">\n                                <div class="dplayer-danmaku-bar-inner">\n                                    <span class="dplayer-thumb"></span>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class="dplayer-setting-speed-panel">\n                    <div class="dplayer-setting-speed-item" data-speed="0.5">\n                        <span class="dplayer-label">0.5</span>\n                    </div>\n                    <div class="dplayer-setting-speed-item" data-speed="0.75">\n                        <span class="dplayer-label">0.75</span>\n                    </div>\n                    <div class="dplayer-setting-speed-item" data-speed="1">\n                        <span class="dplayer-label">'),
           (a += s(l("Normal"))),
           (a +=
             '</span>\n                    </div>\n                    <div class="dplayer-setting-speed-item" data-speed="1.25">\n                        <span class="dplayer-label">1.25</span>\n                    </div>\n                    <div class="dplayer-setting-speed-item" data-speed="1.5">\n                        <span class="dplayer-label">1.5</span>\n                    </div>\n                    <div class="dplayer-setting-speed-item" data-speed="2">\n                        <span class="dplayer-label">2</span>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class="dplayer-full">\n            <button class="dplayer-icon dplayer-full-in-icon" data-balloon="'),
-          (a += s(l("Web full screen"))),
+          (a += s(l("พอดี"))),
           (a +=
             '" data-balloon-pos="up">\n                <span class="dplayer-icon-content">'),
           (a += c.fullWeb),
           (a +=
             '</span>\n            </button>\n            <button class="dplayer-icon dplayer-full-icon" data-balloon="'),
-          (a += s(l("Full screen"))),
+          (a += s(l("เต็มจอ"))),
           (a +=
             '" data-balloon-pos="up">\n                <span class="dplayer-icon-content">'),
           (a += c.full),
@@ -3265,7 +3265,7 @@
             '">\n                <span class="dplayer-thumb" style="background: '),
           (a += s(r.theme)),
           (a +=
-            '"></span>\n            </div>\n        </div>\n    </div>\n</div>\n<div class="dplayer-info-panel dplayer-info-panel-hide">\n    <div class="dplayer-info-panel-close">[x]</div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-version">\n        <span class="dplayer-info-panel-item-title">Player version</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-fps">\n        <span class="dplayer-info-panel-item-title">Player FPS</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-type">\n        <span class="dplayer-info-panel-item-title">Video type</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-url">\n        <span class="dplayer-info-panel-item-title">Video url</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-resolution">\n        <span class="dplayer-info-panel-item-title">Video resolution</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-duration">\n        <span class="dplayer-info-panel-item-title">Video duration</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    '),
+            '"></span>\n            </div>\n        </div>\n    </div>\n</div>\n<div class="dplayer-info-panel dplayer-info-panel-hide">\n    <div class="dplayer-info-panel-close">[x]</div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-version">\n        <span class="dplayer-info-panel-item-title">Player version</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-fps">\n        <span class="dplayer-info-panel-item-title">Player FPS</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-type">\n        <span class="dplayer-info-panel-item-title">Video type</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-url">\n        <span class="dplayer-info-panel-item-title">112 player</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-resolution">\n        <span class="dplayer-info-panel-item-title">Video resolution</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-duration">\n        <span class="dplayer-info-panel-item-title">Video duration</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    '),
           r.danmaku &&
             (a +=
               '\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-danmaku-id">\n        <span class="dplayer-info-panel-item-title">Danamku id</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-danmaku-api">\n        <span class="dplayer-info-panel-item-title">Danamku api</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    <div class="dplayer-info-panel-item dplayer-info-panel-item-danmaku-amount">\n        <span class="dplayer-info-panel-item-title">Danamku amount</span>\n        <span class="dplayer-info-panel-item-data"></span>\n    </div>\n    '),

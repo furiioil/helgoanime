@@ -97,7 +97,7 @@
         g(
           a,
           f(
-            "https://movie.trueid.net/embed/" + (c[2] || "") + "" + c[4],
+            "https://www.youtube.com/embed/" + (c[2] || "") + "" + c[4],
             b.extend({ autoplay: 1 }, e(c[5] || ""))
           )
         )
